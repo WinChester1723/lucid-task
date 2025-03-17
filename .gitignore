@@ -1,0 +1,65 @@
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env
+.venv/
+env/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Ignore logs and databases
+*.log
+*.sqlite3
+*.db
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+
+# Ignore IDE and editor files
+.vscode/
+.idea/
+*.iml
+*.sublime-workspace
+*.sublime-project
+
+# Ignore compiled C extensions
+*.so
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore testing and coverage reports
+.coverage
+htmlcov/
+.tox/
+.nox/
+.pytest_cache/
+pytest_debug.log
+
+# Ignore FastAPI specific files
+instance/
+*.pid
+*.lock
+
+# Ignore Docker-related files
+docker-compose.override.yml
+*.dockerfile
+
+# Ignore migrations (if using Alembic)
+migrations/
+alembic.ini
+
+# Ignore static and media files
+staticfiles/
+media/
+uploads/
+
+# Ignore deployment-related files
+*.pem
+*.key
+*.crt
+*.pem
